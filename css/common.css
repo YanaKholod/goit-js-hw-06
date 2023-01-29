@@ -22,3 +22,18 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  display: flex;
+  gap: 120px;
+  padding: 20px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: rgba(31, 154, 161, 0.939);
+}
+span#value {
+  padding: 8px 12px;
+  color: red;
+}
