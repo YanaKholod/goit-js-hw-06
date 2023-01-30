@@ -9,12 +9,13 @@ function handleSubmit(event) {
   } = event.currentTarget;
   if (email.value === "" || password.value === "") {
     alert("Fields must be filled");
-  }
-  const userData = {
-    email: email.value,
-    password: password.value,
-  };
-  console.log(userData);
+  } else {
+    const userData = {
+      email: email.value,
+      password: password.value,
+    };
+    console.log(userData);
 
-  event.currentTarget.reset();
+    event.currentTarget.reset();
+  }
 }
